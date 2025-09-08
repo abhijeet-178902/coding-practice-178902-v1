@@ -1,3 +1,5 @@
+//PROBLEM  DIFFICULTY LEVEL = EASY
+
 //You are given a list of numbers. Write an algorithm to remove all the //duplicate numbers of the lists so that the list contains only distinct // numberin the same order as they appears in the input list.
 
 // Input : 11
