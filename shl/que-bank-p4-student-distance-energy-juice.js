@@ -54,7 +54,7 @@ function calculateMinStalls(numStalls, stallDistance, juiceInStallInLtr, totalDi
       if (maxHeap.length === 0) return -1;
 
       // Get max juice
-      let maxJuice = Math.max(...maxHeap);
+      let maxJuice = Math.max(...maxHeap); 
       maxHeap.splice(maxHeap.indexOf(maxJuice), 1); // remove it
       energy += maxJuice;
       stops++;
