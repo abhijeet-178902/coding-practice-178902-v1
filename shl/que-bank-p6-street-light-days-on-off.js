@@ -1,4 +1,4 @@
-
+//PROBLEM  DIFFICULTY LEVEL = EASY-MEDIUM
 //Mr. Woods an electrician for Timberland city, has made some faulty connections on eight street lights. 
 
 // The error cause the street light to go OFF if the street lights adjacent
