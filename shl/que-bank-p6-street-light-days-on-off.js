@@ -46,10 +46,10 @@ function getStateOfLight(currentState, totalDays){
             if((i == 0 && state[i+1] === 0 ) || (i == state.length -1 && state[i-1] == 0)){
                processedState[i] = 0;
             }else {
-                if((state[i+1] === 0 && state[i-1] === 0 )|| (state[i+1] ===1 && state[i-1] === 1 )){
-                      processedState[i] = 0;
+                if(state[i+1] === state[i-1]){  //either both 0 or both 1
+                    processedState[i] = 0;
                 }else{
-                      processedState[i] = 1; 
+                    processedState[i] = 1;
                 }
             }    
         }
