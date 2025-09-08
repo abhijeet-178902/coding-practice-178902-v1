@@ -1,4 +1,4 @@
-
+//PROBLEM  DIFFICULTY LEVEL = MEDIUM
 //A student misses the bus and has to walk all the way from home to school. //The distance from home to school is D units.
 //The student starts his journey with the initial energy of K units. 
 //The energy of the student decreases by 1 unit for every unit of distance walked. 
