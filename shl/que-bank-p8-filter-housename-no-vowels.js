@@ -1,3 +1,4 @@
+//PROBLEM  DIFFICULTY LEVEL = EASY
 //In a town, the houses are marked with letters in the English alphabet.
 
 //A town committee wants to renovate each house. 
