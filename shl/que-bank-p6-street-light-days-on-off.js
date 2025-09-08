@@ -4,10 +4,6 @@
 // The error cause the street light to go OFF if the street lights adjacent
 //to the light where both ON.(represents as 1). Or both OFF(represents as 0) on the previous night.****
 
-//prev night 1 1 1 0 1 1 1 1
-//next night 1 0 1 0 1 0 0 1  
-//next night 0 0 0 0 0 1 1 0
-
 //Otherwise the light will go On as normal.
 //The two street lights at the end of the road only a single adjacent street light, so the light at the end can be assumed to be always OFF. 
 
@@ -36,6 +32,10 @@ the state of the street light after M days.*/
 // Second line input: 1 1 1 0 1 1 1 1
 // Thirs line input: 2
 // Output: 0 0 0 0 0 1 1 0
+
+//example //prev night 1 1 1 0 1 1 1 1
+//next night 1 0 1 0 1 0 0 1  
+//next night 0 0 0 0 0 1 1 0
 
 
 //base version v1
