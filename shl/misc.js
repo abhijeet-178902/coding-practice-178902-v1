@@ -67,6 +67,42 @@ const item = myArray[n]; //*********
 console.log(item); // Output: orange //********
 
 
+
+////////////////
+//some array where 1<= K <= arr.length
+
+arr1 = arr.slice(0, K); // cut array from 0 upto k, (k excluded)
+arr2 = arr.slice(k);  // cut array from kth index to end (upto length)
+
+
+///////////////////////
+// counting of substring(pattern
+  let str1 = "Helloaskdjhahello";
+  let pattern1 = 'hello';
+  
+  str1 = str1.toLowerCase();
+  pattern1 = pattern1.toLowerCase();
+  
+  index = 0;
+  count = 0;
+  
+  while(true){
+      const newIndex = str1.indexOf(pattern1, index);
+      if(newIndex >=0){
+          count++;
+          index = newIndex+1;
+      }else{
+          break;
+      }
+  }
+  
+  console.log(count); // 2 
+
+
+
+
+
+
  
 
 
