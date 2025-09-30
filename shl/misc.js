@@ -43,6 +43,28 @@ const inputArr = inputStr.trim().split('\n');
 //30
 
 
+/////////// SET
+const input1 = [1, 2, 3, 3, 4];
+const input2 = [3, 4,4 , 5, 6];
+
+const set1 = new Set(input1); // ******** SET of unique values
+const set2 = new Set(input2); 
+
+console.log(set1, set2); //output {1, 2, 3, 4}   {3, 4, 5, 6}
+//set.add(ele) // if add some value more than one time. it will ignore
+//set.delete(ele)
+//set.has(ele)
+//set.clear()
+//set.size
+
+//to get value in nth position in Set
+const mySet = new Set(['apple', 'banana', 'orange', 'grape']);
+const n = 2; // To get the item at the 3rd position (index 2) //*******
+
+const myArray = [...mySet]; // Convert Set to an Array //******
+const item = myArray[n]; //*********
+
+console.log(item); // Output: orange //********
 
 
  
